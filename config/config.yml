@@ -1,0 +1,5 @@
+development: &default
+  app_host: localhost:3000
+
+test:
+  <<: *default
